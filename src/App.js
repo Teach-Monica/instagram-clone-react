@@ -14,6 +14,7 @@ export default function App() {
         setPosts(snapshot.docs.map(doc=>doc.data()))
         
         //data() has a caption,username,imageurl
+        // log
       })
     }, []);
 
